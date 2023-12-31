@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sql1
+    restart: unless-stopped
+    user: 0:0
+    environment:
+      MSSQL_SA_PASSWORD: SQLpwd874237
+      MSSQL_PID: Express
+      ACCEPT_EULA: Y
+    ports:
+      - 1433:1433
+    volumes:
+      - sqlservervol:/var/opt/mssql/data/
+volumes:
+  sqlservervol:
