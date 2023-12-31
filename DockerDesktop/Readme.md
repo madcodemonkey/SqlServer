@@ -1,5 +1,5 @@
 # Summary
-This folder contains a docker compose file to create a local instance of SQL Server (Linux versino) that I can attach to.
+This folder contains a docker compose file to create a local instance of SQL Server (Linux version) that I can attach to.
 
 # Requirements
 Docker Desktop is installed.
