@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleEfCoreExp1": {
+      "commandName": "Project",
+      "commandLineArgs": "1 3"
+    }
+  }
+}
